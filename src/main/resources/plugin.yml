@@ -1,0 +1,15 @@
+name: HighwayDirection
+version: '${version}'
+main: nl.vloedje.highwaydirection.HighwayDirection
+api-version: 1.20
+authors: [ EEstar ]
+description: highway plugin
+website: https://vloedje.nl/discord
+commands:
+  highway:
+    description: Find the nearest highway direction in the Nether.
+    permission: highwaydirection.use
+permissions:
+  highwaydirection.use:
+    description: Allows usage of the /highway command.
+    default: op
